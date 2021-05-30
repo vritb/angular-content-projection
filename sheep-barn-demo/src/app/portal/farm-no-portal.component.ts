@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-farm-no-portal',
   template: `
+    <h3>Farm-No-Portal</h3>
     <div class="barn">
       <ng-content *ngIf="!day"></ng-content>
     </div>

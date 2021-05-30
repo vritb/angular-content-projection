@@ -8,6 +8,7 @@ import { TargetedModule } from './targeted/targeted.module';
 import { CloningModule } from './cloning/cloning.module';
 import { TemplateRefModule } from './template-ref/template-ref.module';
 import { PortalModule } from './portal/portal.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports:      [ BrowserModule, BasicModule, TargetedModule, CloningModule, TemplateRefModule, PortalModule ],
