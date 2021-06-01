@@ -4,14 +4,14 @@ import { Component } from '@angular/core';
   selector: 'my-farm-portal',
   template: `
     <div class="barn">
-      <ng-container *ngIf="!day"
-        [ngTemplateOutlet]="sheep">
+      <ng-container *ngIf="!day">
+        <div *ngTemplateOutlet="sheep"></div>
       </ng-container>
     </div>
 
     <div class="outside">
-      <ng-container *ngIf="day"
-        [ngTemplateOutlet]="sheep">
+      <ng-container *ngIf="day">
+        <div *ngTemplateOutlet="sheep"></div>
       </ng-container>
     </div>
 

@@ -6,9 +6,9 @@ import { FarmComponent } from './farm';
   selector: 'my-farm-template-outlet',
   template: `
     <div class="fence">
-      <ng-container [ngTemplateOutlet]="sheepTemplate"></ng-container>
-      <ng-container [ngTemplateOutlet]="sheepTemplate"></ng-container>
-      <ng-container [ngTemplateOutlet]="sheepTemplate"></ng-container>
+      <ng-container *ngTemplateOutlet="sheepTemplate"></ng-container>
+      <ng-container *ngTemplateOutlet="sheepTemplate"></ng-container>
+      <ng-container *ngTemplateOutlet="sheepTemplate"></ng-container>
     </div>
   `,
   host: {
